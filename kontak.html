@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Kontak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E3E4FA
+        }
+        header {
+            background-color: #E6E6FA
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #D462FF
+        }
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: white;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kontak Saya</h1>
+</header>
+
+<nav>
+    <a href="file:///G:/Zalfa%20Munira%2011%20tjkt%204/tugas14.html">Beranda</a>
+    <a href="file:///G:/Zalfa%20Munira%2011%20tjkt%204/datadiri.html">Data Diri</a>
+    <a href="file:///G:/Zalfa%20Munira%2011%20tjkt%204/sosmed.html">Sosial Media</a>
+    <a href="file:///G:/Zalfa%20Munira%2011%20tjkt%204/kontak.html">Kontak</a>
+    <a href="G:\Zalfa Munira 11 tjkt 4\foto.html">Galeri</a>
+    <a href="G:\Zalfa Munira 11 tjkt 4\hackers.html">Galeri</a>
+</nav>
+
+<div class="content" id="kontak">
+    <h2>Hubungi Saya</h2>
+    <p>Jika Anda ingin menghubungi saya, silakan isi formulir di bawah ini. Saya akan segera membalas pesan Anda!</p>
+
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Zalfa Muniira" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="zalfamuniira08@gmail.com" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+
+        <input type="submit" value="Kirim Pesan">
+    </form>
+</div>
+
+
+
+</body>
+</html>
